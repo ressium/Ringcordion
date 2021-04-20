@@ -1,0 +1,18 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1836374242	RingcordionPullPush			\Ringcordion\RingcordionPullPush	
+	3257916159	MajorMinor			\Ringcordion\MajorMinor	
+
+Switch	ID	Name	Switch Group			Notes
+	398077510	RingPull	RingcordionPullPush			
+	1084723949	RingPlay	RingcordionPullPush			
+	1622505453	RingIdle	RingcordionPullPush			
+	1245009076	Major	MajorMinor			
+	3499807024	Minor	MajorMinor			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

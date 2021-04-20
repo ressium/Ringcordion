@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{48E0B96C-849B-46CF-B5FC-F8178415D784}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Ringcordion events" ID="{48E0B96C-849B-46CF-B5FC-F8178415D784}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Pull" ID="{6C105B46-F533-4B04-AEFC-CCEF7F279E64}">
+					<ChildrenList>
+						<Action Name="" ID="{9170395F-E594-4D62-B6F4-E937A7287321}" ShortID="117123690">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Simplest sampler" ID="{6F1A5FA3-69EB-4565-8D33-00EF6433BDB4}" WorkUnitID="{899D3748-F0A0-4ADB-93B9-11CB47EF5B72}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play" ID="{A5C33767-6BFC-4DEC-B1E0-EDB4F5C2C9E5}">
+					<ChildrenList>
+						<Action Name="" ID="{F48F05DD-CF61-41F8-AB9B-ADFA595FED2D}" ShortID="809269175">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Synth switch" ID="{438F1BEB-221D-470C-8816-1FEFCAB145E8}" WorkUnitID="{337E45D9-A726-4573-B9D3-C193035B0554}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RCButton" ID="{6475124D-4843-48A4-821F-435ACCE05934}">
+					<ChildrenList>
+						<Action Name="" ID="{F71FA17B-A0BD-4C2D-89B1-57726E5B0B8D}" ShortID="411718799">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RC Buttons" ID="{7AB1B16A-95C0-4435-B745-B4B29B856A58}" WorkUnitID="{337E45D9-A726-4573-B9D3-C193035B0554}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

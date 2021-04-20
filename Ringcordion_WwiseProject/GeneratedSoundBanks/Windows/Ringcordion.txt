@@ -1,0 +1,151 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1256202815	Play			\Ringcordion events\Play	
+	1521606952	RCButton			\Ringcordion events\RCButton	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1836374242	RingcordionPullPush			\Ringcordion\RingcordionPullPush	
+	3257916159	MajorMinor			\Ringcordion\MajorMinor	
+
+Switch	ID	Name	Switch Group			Notes
+	398077510	RingPull	RingcordionPullPush			
+	1084723949	RingPlay	RingcordionPullPush			
+	1622505453	RingIdle	RingcordionPullPush			
+	1245009076	Major	MajorMinor			
+	3499807024	Minor	MajorMinor			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2327476764	PullPush			\Default Work Unit\Ringcordion params\PullPush	
+	2903690086	Transpose			\Default Work Unit\Ringcordion params\Transpose	
+	3313763384	RingKey			\Default Work Unit\Ringcordion params\RingKey	
+	3594613879	RingScale			\Default Work Unit\Ringcordion params\RingScale	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	53466128	Vib2			\Ringcordion mods\RC LFOs\Vib2	
+	389497450	Vib			\Ringcordion mods\RC LFOs\Vib	
+	1005148635	Vib_3			\Ringcordion mods\RC LFOs\Vib_3	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	31107332	Modulator Envelope (Custom)				
+	35146529	Modulator Envelope (Custom)				
+	40124022	Modulator Envelope (Custom)				
+	73020262	Modulator Envelope (Custom)				
+	94415721	Modulator Envelope (Custom)				
+	124069623	Modulator Envelope (Custom)				
+	135292708	Modulator Envelope (Custom)				
+	155109418	Modulator Envelope (Custom)				
+	158425925	Modulator Envelope (Custom)				
+	162537564	Modulator Envelope (Custom)				
+	181780038	Modulator Envelope (Custom)				
+	249942447	Modulator Envelope (Custom)				
+	268700502	Modulator Envelope (Custom)				
+	302348067	Modulator Envelope (Custom)				
+	329354913	Modulator Envelope (Custom)				
+	349779079	Modulator Envelope (Custom)				
+	414861618	Modulator Envelope (Custom)				
+	449609356	Modulator Envelope (Custom)				
+	479724645	Modulator Envelope (Custom)				
+	484426437	Modulator Envelope (Custom)				
+	490396922	Modulator Envelope (Custom)				
+	514195386	Modulator Envelope (Custom)				
+	543262056	Modulator Envelope (Custom)				
+	561989755	Modulator Envelope (Custom)				
+	599456504	Modulator Envelope (Custom)				
+	606885684	Modulator Envelope (Custom)				
+	610777693	Modulator Envelope (Custom)				
+	626801237	Modulator Envelope (Custom)				
+	628917269	Modulator Envelope (Custom)				
+	652992105	Modulator Envelope (Custom)				
+	669296812	Modulator Envelope (Custom)				
+	672091860	Modulator Envelope (Custom)				
+	674316478	Modulator Envelope (Custom)				
+	726683649	Modulator Envelope (Custom)				
+	733359925	Modulator Envelope (Custom)				
+	748276880	Modulator Envelope (Custom)				
+	773038196	Modulator Envelope (Custom)				
+	785123729	Modulator Envelope (Custom)				
+	810008077	Modulator Envelope (Custom)				
+	824049199	Modulator Envelope (Custom)				
+	844130298	Modulator Envelope (Custom)				
+	880933268	Modulator Envelope (Custom)				
+	894249117	Modulator Envelope (Custom)				
+	935480761	Transients			\Ringcordion mods\Transients	
+	954369857	Modulator Envelope (Custom)				
+	962715982	Modulator Envelope (Custom)				
+	995815427	Modulator Envelope (Custom)				
+	1016531730	Modulator Envelope (Custom)				
+	1020693442	Modulator Envelope (Custom)				
+	1021655942	Modulator Envelope (Custom)				
+	1039342721	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	889840131	RC_Harmo_1_m3	Wwise Harmonizer			
+	1629384655	RC_Harmo_2_M2	Wwise Harmonizer			
+	3978228057	RC_Harmo_8	Wwise Harmonizer			
+	4093037760	RC_Harmo_3_m2	Wwise Harmonizer			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	13970711	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Major\02 A5\Wwise Synth One	
+	19683866	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\V\03 Fs5_harmo m3\Wwise Synth One	
+	22704299	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Major\06 D6x2_harmo M2\Wwise Synth One	
+	24872623	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Minor\06 D6x2_harmo M2\Wwise Synth One	
+	31071074	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\V\03 Fs5_harmo m3\Wwise Synth One	
+	41725750	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\I\02 A5\Wwise Synth One	
+	46330388	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\V\02 A5\Wwise Synth One	
+	51083815	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\V\04 D6_harmo M2\Wwise Synth One	
+	61228532	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\I\02 A5\Wwise Synth One	
+	73836658	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Minor\03 Fs5_harmo m3\Wwise Synth One	
+	81889410	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Minor\02 A5\Wwise Synth One	
+	120996629	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Major\01 D4\Wwise Synth One	
+	139149398	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\I\01 D4\Wwise Synth One	
+	278869601	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\V\01 D4\Wwise Synth One	
+	289496506	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Major\02 A5\Wwise Synth One	
+	308699881	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\I\D harmo8 hi1\Wwise Synth One	
+	319178769	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Major\04 D6_harmo M2\Wwise Synth One	
+	334777266	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Major\04 D6_harmo M2\Wwise Synth One	
+	354157316	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Minor\01 D4\Wwise Synth One	
+	393173874	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\I\03 Fs5_harmo m3\Wwise Synth One	
+	397054061	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\I\03 Fs5_harmo m3\Wwise Synth One	
+	401118377	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Minor\04 D6_harmo M2\Wwise Synth One	
+	406380177	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\I\06 D6x2_harmo M2\Wwise Synth One	
+	452379515	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Minor\05 G6_harmo M1\Wwise Synth One	
+	467075462	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\I\05 G6_harmo M1\Wwise Synth One	
+	519873191	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Major\06 D6x2_harmo M2\Wwise Synth One	
+	524779309	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Major\03 Fs5_harmo m3\Wwise Synth One	
+	537507469	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 2\Silence\Wwise Silence	
+	554939750	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Major\01 D4\Wwise Synth One	
+	583262138	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Minor\05 G6_harmo M1\Wwise Synth One	
+	588689368	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Minor\04 D6_harmo M2\Wwise Synth One	
+	601442701	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\V\06 D6x2_harmo M2\Wwise Synth One	
+	608068221	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\V\05 G6_harmo M1\Wwise Synth One	
+	610157402	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\I\D harmo8 hi1\Wwise Synth One	
+	618218100	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Major\03 Fs5_harmo m3\Wwise Synth One	
+	647011972	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Minor\02 A5\Wwise Synth One	
+	665663149	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Minor\01 D4\Wwise Synth One	
+	718044439	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\I\04 D6_harmo M2\Wwise Synth One	
+	761791703	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Minor\06 D6x2_harmo M2\Wwise Synth One	
+	784920201	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\I\06 D6x2_harmo M2\Wwise Synth One	
+	792581159	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\Switch III\III_Major\05 G6_harmo M1\Wwise Synth One	
+	800510240	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\V\02 A5\Wwise Synth One	
+	832850985	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Minor\03 Fs5_harmo m3\Wwise Synth One	
+	895194615	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\V\04 D6_harmo M2\Wwise Synth One	
+	897484140	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\V\05 G6_harmo M1\Wwise Synth One	
+	910662360	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\I\01 D4\Wwise Synth One	
+	941655180	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\I\05 G6_harmo M1\Wwise Synth One	
+	978959318	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\Tonal\V\06 D6x2_harmo M2\Wwise Synth One	
+	1009271825	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\V\01 D4\Wwise Synth One	
+	1017292115	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\I\04 D6_harmo M2\Wwise Synth One	
+	1047494238	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\play\Switch III\III_Major\05 G6_harmo M1\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	42013359	RC_Button_L1_03	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L1_03_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 1\RC_Button_L1_03		34516
+	212762743	RC_Button_L1_05	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L1_05_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 1\RC_Button_L1_05		39044
+	328471701	RC_Button_L1_06	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L1_06_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 1\RC_Button_L1_06		30516
+	396400601	RC_Button_L1_04	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L1_04_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 1\RC_Button_L1_04		41796
+	525798120	RC_Button_L2_04	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L2_04_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 2\RC_Button_L2_04		35232
+	602065568	RC_Button_L1_02	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L1_02_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 1\RC_Button_L1_02		35352
+	683097290	RC_Button_L1_01	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L1_01_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 1\RC_Button_L1_01		32248
+	703339273	RC_Button_L2_03	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L2_03_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 2\RC_Button_L2_03		36500
+	791864351	RC_Button_L2_01	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L2_01_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 2\RC_Button_L2_01		25144
+	1008084864	pull	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\Kontakt-01_8A4528E0.wem		\Actor-Mixer Hierarchy\Ringcordion\Synth switch\pull\pull		353112
+	1023854894	RC_Button_L2_02	G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Windows\SFX\RC_Button_L2_02_10C4C929.wem		\Actor-Mixer Hierarchy\Ringcordion\RC Buttons\Layer 2\RC_Button_L2_02		44552
+

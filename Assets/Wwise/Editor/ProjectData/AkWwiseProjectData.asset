@@ -1,0 +1,685 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6df016bad46b1364794570b6c1b504bb, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 7c0a26e6b6ce5e438c62c0e484fcf68a
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 7c0a26e6b6ce5e438c62c0e484fcf68a
+    GuidInternal: 
+    m_lastTime: -8585841176616311693
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 90d318024aef504390b6f1dd8d121a96
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 90d318024aef504390b6f1dd8d121a96
+    GuidInternal: 
+    m_lastTime: -8585841176616501425
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 90d318024aef504390b6f1dd8d121a96
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 52d86b2518b9e747890072d4ffc018e1
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 52d86b2518b9e747890072d4ffc018e1
+    GuidInternal: 
+    m_lastTime: -8585841176616361798
+    List: []
+  - PhysicalPath: SoundBanks\RRO Ringcordion.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: RRO Ringcordion
+      ObjectType: 12
+      guid: 4f3eaad7210dd248b06dfdff69dbbff4
+    ParentPath: SoundBanks\RRO Ringcordion
+    guid: 4f3eaad7210dd248b06dfdff69dbbff4
+    GuidInternal: 
+    m_lastTime: -8585836450969330253
+    List:
+    - name: Ringcordion
+      guid: 42609cbd44f42c44aa6419202ec43d22
+      id: 2634673847
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: RRO Ringcordion
+        ObjectType: 12
+        guid: 4f3eaad7210dd248b06dfdff69dbbff4
+      - ElementName: Ringcordion
+        ObjectType: 7
+        guid: 42609cbd44f42c44aa6419202ec43d22
+      Path: SoundBanks\RRO Ringcordion\Ringcordion
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 233d650546fd4344ba4847c022e3fb2b
+    ParentPath: Events\Default Work Unit
+    guid: 233d650546fd4344ba4847c022e3fb2b
+    GuidInternal: 
+    m_lastTime: -8585841176616411662
+    List: []
+  - PhysicalPath: Events\Ringcordion events.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Ringcordion events
+      ObjectType: 12
+      guid: 6cb9e0489b84cf46b5fcf8178415d784
+    ParentPath: Events\Ringcordion events
+    guid: 6cb9e0489b84cf46b5fcf8178415d784
+    GuidInternal: 
+    m_lastTime: -8585836449999333057
+    List:
+    - name: Play
+      guid: 6737c3a5fc6bec4db1e0edb4f5c2c9e5
+      id: 1256202815
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ringcordion events
+        ObjectType: 12
+        guid: 6cb9e0489b84cf46b5fcf8178415d784
+      - ElementName: Play
+        ObjectType: 3
+        guid: 6737c3a5fc6bec4db1e0edb4f5c2c9e5
+      Path: Events\Ringcordion events\Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: RCButton
+      guid: 4d1275644348a448821f435acce05934
+      id: 1521606952
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ringcordion events
+        ObjectType: 12
+        guid: 6cb9e0489b84cf46b5fcf8178415d784
+      - ElementName: RCButton
+        ObjectType: 3
+        guid: 4d1275644348a448821f435acce05934
+      Path: Events\Ringcordion events\RCButton
+      maxAttenuation: 0
+      maxDuration: 1.059463
+      minDuration: 0.162941
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1d65cb787e91384ba2bd1beabb00f13d
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 1d65cb787e91384ba2bd1beabb00f13d
+    GuidInternal: 
+    m_lastTime: -8585833580221806133
+    List:
+    - name: air
+      guid: f570fbf1940cfe48a95bb6be0d0e1d95
+      id: 1050421051
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Arduino Sensor Kit
+        ObjectType: 4
+        guid: cccd152bb33c1c45ba0deabbfc667fb0
+      - ElementName: air
+        ObjectType: 13
+        guid: f570fbf1940cfe48a95bb6be0d0e1d95
+      Path: Game Parameters\Default Work Unit\Arduino Sensor Kit\air
+    - name: Arduino light theremin
+      guid: 0502cdc218db6648a3f09a57fece40e3
+      id: 3107960271
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Arduino light theremin
+        ObjectType: 4
+        guid: 0502cdc218db6648a3f09a57fece40e3
+      Path: Game Parameters\Default Work Unit\Arduino light theremin
+    - name: Arduino Sensor Kit
+      guid: cccd152bb33c1c45ba0deabbfc667fb0
+      id: 3765842175
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Arduino Sensor Kit
+        ObjectType: 4
+        guid: cccd152bb33c1c45ba0deabbfc667fb0
+      Path: Game Parameters\Default Work Unit\Arduino Sensor Kit
+    - name: humidity
+      guid: 8fe75a1e23f3e7448ef1acf2cc998b9d
+      id: 3577765598
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Arduino Sensor Kit
+        ObjectType: 4
+        guid: cccd152bb33c1c45ba0deabbfc667fb0
+      - ElementName: humidity
+        ObjectType: 13
+        guid: 8fe75a1e23f3e7448ef1acf2cc998b9d
+      Path: Game Parameters\Default Work Unit\Arduino Sensor Kit\humidity
+    - name: IdleOrAction
+      guid: 629c368afc440e47a4245d1b14f98c3a
+      id: 514948634
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: IdleOrAction
+        ObjectType: 13
+        guid: 629c368afc440e47a4245d1b14f98c3a
+      Path: Game Parameters\Default Work Unit\IdleOrAction
+    - name: light
+      guid: 8e9ca413f364d44280b2c9abddf166f7
+      id: 1935470627
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Arduino Sensor Kit
+        ObjectType: 4
+        guid: cccd152bb33c1c45ba0deabbfc667fb0
+      - ElementName: light
+        ObjectType: 13
+        guid: 8e9ca413f364d44280b2c9abddf166f7
+      Path: Game Parameters\Default Work Unit\Arduino Sensor Kit\light
+    - name: Pitchbend
+      guid: 7091fa52f0e0324cb7fa362f5a201c45
+      id: 3640688520
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Samplers
+        ObjectType: 4
+        guid: d9ef6312bac15c4c920071e6c193b824
+      - ElementName: Pitchbend
+        ObjectType: 13
+        guid: 7091fa52f0e0324cb7fa362f5a201c45
+      Path: Game Parameters\Default Work Unit\Samplers\Pitchbend
+    - name: pot
+      guid: e9003ce79f8bae4db13dc974b25cca68
+      id: 1081563618
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Arduino Sensor Kit
+        ObjectType: 4
+        guid: cccd152bb33c1c45ba0deabbfc667fb0
+      - ElementName: pot
+        ObjectType: 13
+        guid: e9003ce79f8bae4db13dc974b25cca68
+      Path: Game Parameters\Default Work Unit\Arduino Sensor Kit\pot
+    - name: PS4Bass
+      guid: 9ae7ce35ed93e74a9aa5f138a4d4abe1
+      id: 1406009915
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: PS4Bass
+        ObjectType: 4
+        guid: 9ae7ce35ed93e74a9aa5f138a4d4abe1
+      Path: Game Parameters\Default Work Unit\PS4Bass
+    - name: PullPush
+      guid: c90cace40144d045a653aa4aa60228ff
+      id: 2327476764
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Ringcordion params
+        ObjectType: 4
+        guid: 2f6679ba5056444f8bc02846ef6aa573
+      - ElementName: PullPush
+        ObjectType: 13
+        guid: c90cace40144d045a653aa4aa60228ff
+      Path: Game Parameters\Default Work Unit\Ringcordion params\PullPush
+    - name: Ringcordion params
+      guid: 2f6679ba5056444f8bc02846ef6aa573
+      id: 3948977071
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Ringcordion params
+        ObjectType: 4
+        guid: 2f6679ba5056444f8bc02846ef6aa573
+      Path: Game Parameters\Default Work Unit\Ringcordion params
+    - name: RingKey
+      guid: 491a09df0549974e993debce3ab8385a
+      id: 3313763384
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Ringcordion params
+        ObjectType: 4
+        guid: 2f6679ba5056444f8bc02846ef6aa573
+      - ElementName: RingKey
+        ObjectType: 13
+        guid: 491a09df0549974e993debce3ab8385a
+      Path: Game Parameters\Default Work Unit\Ringcordion params\RingKey
+    - name: RingScale
+      guid: 8b0d35f3fbcf364681d956313026b375
+      id: 3594613879
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Ringcordion params
+        ObjectType: 4
+        guid: 2f6679ba5056444f8bc02846ef6aa573
+      - ElementName: RingScale
+        ObjectType: 13
+        guid: 8b0d35f3fbcf364681d956313026b375
+      Path: Game Parameters\Default Work Unit\Ringcordion params\RingScale
+    - name: Samplers
+      guid: d9ef6312bac15c4c920071e6c193b824
+      id: 2677001150
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Samplers
+        ObjectType: 4
+        guid: d9ef6312bac15c4c920071e6c193b824
+      Path: Game Parameters\Default Work Unit\Samplers
+    - name: SimpleOrVibrato
+      guid: 22542871f7f87f4f8b57fa8f2fa8ace0
+      id: 1691116495
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Samplers
+        ObjectType: 4
+        guid: d9ef6312bac15c4c920071e6c193b824
+      - ElementName: SimpleOrVibrato
+        ObjectType: 13
+        guid: 22542871f7f87f4f8b57fa8f2fa8ace0
+      Path: Game Parameters\Default Work Unit\Samplers\SimpleOrVibrato
+    - name: SomeRTPC
+      guid: b3500c4290ca99498e59ed5c92e45330
+      id: 3970602524
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Samplers
+        ObjectType: 4
+        guid: d9ef6312bac15c4c920071e6c193b824
+      - ElementName: SomeRTPC
+        ObjectType: 13
+        guid: b3500c4290ca99498e59ed5c92e45330
+      Path: Game Parameters\Default Work Unit\Samplers\SomeRTPC
+    - name: temp
+      guid: 91bb4f9d312f1d4ba44a5ba944ed81d4
+      id: 3190558387
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Arduino Sensor Kit
+        ObjectType: 4
+        guid: cccd152bb33c1c45ba0deabbfc667fb0
+      - ElementName: temp
+        ObjectType: 13
+        guid: 91bb4f9d312f1d4ba44a5ba944ed81d4
+      Path: Game Parameters\Default Work Unit\Arduino Sensor Kit\temp
+    - name: Theremin_freq
+      guid: 4a6352e7d32bd04ba2a10fdb553390b7
+      id: 1518776484
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Arduino light theremin
+        ObjectType: 4
+        guid: 0502cdc218db6648a3f09a57fece40e3
+      - ElementName: Theremin_freq
+        ObjectType: 13
+        guid: 4a6352e7d32bd04ba2a10fdb553390b7
+      Path: Game Parameters\Default Work Unit\Arduino light theremin\Theremin_freq
+    - name: Theremin_volume
+      guid: 7c811f11644b9f4997b815e3f8ccd0ab
+      id: 640239972
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Arduino light theremin
+        ObjectType: 4
+        guid: 0502cdc218db6648a3f09a57fece40e3
+      - ElementName: Theremin_volume
+        ObjectType: 13
+        guid: 7c811f11644b9f4997b815e3f8ccd0ab
+      Path: Game Parameters\Default Work Unit\Arduino light theremin\Theremin_volume
+    - name: Transpose
+      guid: 24ac460d0cb02a4abe009f6d0f7e0137
+      id: 2903690086
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Ringcordion params
+        ObjectType: 4
+        guid: 2f6679ba5056444f8bc02846ef6aa573
+      - ElementName: Transpose
+        ObjectType: 13
+        guid: 24ac460d0cb02a4abe009f6d0f7e0137
+      Path: Game Parameters\Default Work Unit\Ringcordion params\Transpose
+    - name: Treasures_nearby
+      guid: 20b8f98a44ec2a46882e705dd3f15ca9
+      id: 1925317077
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 1d65cb787e91384ba2bd1beabb00f13d
+      - ElementName: Treasures_nearby
+        ObjectType: 13
+        guid: 20b8f98a44ec2a46882e705dd3f15ca9
+      Path: Game Parameters\Default Work Unit\Treasures_nearby
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: e55da33245b7e04392e4559d9236d8e9
+    ParentPath: States\Default Work Unit
+    guid: e55da33245b7e04392e4559d9236d8e9
+    GuidInternal: 
+    m_lastTime: -8585841176616351832
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 1ae10efac27efc439baf531d6ffc3503
+    ParentPath: Switches\Default Work Unit
+    guid: 1ae10efac27efc439baf531d6ffc3503
+    GuidInternal: 
+    m_lastTime: -8585841176616471508
+    List: []
+  - PhysicalPath: Switches\Ringcordion.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Ringcordion
+      ObjectType: 12
+      guid: 36c3eaea456d9040a557092190ba4f47
+    ParentPath: Switches\Ringcordion
+    guid: 36c3eaea456d9040a557092190ba4f47
+    GuidInternal: 
+    m_lastTime: -8585836452794409068
+    List:
+    - name: MajorMinor
+      guid: f3906a771d6e8b468f13688901b4072a
+      id: 3257916159
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ringcordion
+        ObjectType: 12
+        guid: 36c3eaea456d9040a557092190ba4f47
+      - ElementName: MajorMinor
+        ObjectType: 11
+        guid: f3906a771d6e8b468f13688901b4072a
+      Path: Switches\Ringcordion\MajorMinor
+      values:
+      - name: Major
+        guid: a9f5784ffd51b34fb08e9feb81d93992
+        id: 1245009076
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Ringcordion
+          ObjectType: 12
+          guid: 36c3eaea456d9040a557092190ba4f47
+        - ElementName: MajorMinor
+          ObjectType: 11
+          guid: f3906a771d6e8b468f13688901b4072a
+        - ElementName: Major
+          ObjectType: 10
+          guid: a9f5784ffd51b34fb08e9feb81d93992
+      - name: Minor
+        guid: edede8c9eed06643a40a962715cda563
+        id: 3499807024
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Ringcordion
+          ObjectType: 12
+          guid: 36c3eaea456d9040a557092190ba4f47
+        - ElementName: MajorMinor
+          ObjectType: 11
+          guid: f3906a771d6e8b468f13688901b4072a
+        - ElementName: Minor
+          ObjectType: 10
+          guid: edede8c9eed06643a40a962715cda563
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: RingcordionPullPush
+      guid: fb5ea22632a57240a56e384b4fde0ccb
+      id: 1836374242
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Ringcordion
+        ObjectType: 12
+        guid: 36c3eaea456d9040a557092190ba4f47
+      - ElementName: RingcordionPullPush
+        ObjectType: 11
+        guid: fb5ea22632a57240a56e384b4fde0ccb
+      Path: Switches\Ringcordion\RingcordionPullPush
+      values:
+      - name: RingIdle
+        guid: 062babd86b7d2a42b175f23b0516fceb
+        id: 1622505453
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Ringcordion
+          ObjectType: 12
+          guid: 36c3eaea456d9040a557092190ba4f47
+        - ElementName: RingcordionPullPush
+          ObjectType: 11
+          guid: fb5ea22632a57240a56e384b4fde0ccb
+        - ElementName: RingIdle
+          ObjectType: 10
+          guid: 062babd86b7d2a42b175f23b0516fceb
+      - name: RingPlay
+        guid: 19a55806e9064941ab9eb4406d8e1670
+        id: 1084723949
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Ringcordion
+          ObjectType: 12
+          guid: 36c3eaea456d9040a557092190ba4f47
+        - ElementName: RingcordionPullPush
+          ObjectType: 11
+          guid: fb5ea22632a57240a56e384b4fde0ccb
+        - ElementName: RingPlay
+          ObjectType: 10
+          guid: 19a55806e9064941ab9eb4406d8e1670
+      - name: RingPull
+        guid: c17b0fe6bb0d3b418318cda5c6fac614
+        id: 398077510
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Ringcordion
+          ObjectType: 12
+          guid: 36c3eaea456d9040a557092190ba4f47
+        - ElementName: RingcordionPullPush
+          ObjectType: 11
+          guid: fb5ea22632a57240a56e384b4fde0ccb
+        - ElementName: RingPull
+          ObjectType: 10
+          guid: c17b0fe6bb0d3b418318cda5c6fac614
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 843fee04c04a064a8a504a2e2250c748
+    ParentPath: Triggers\Default Work Unit
+    guid: 843fee04c04a064a8a504a2e2250c748
+    GuidInternal: 
+    m_lastTime: -8585841176616391722
+    List: []
+  ExpandedFileSystemItemIds: 0400000006000000
+  ExpandedWaapiItemIds: 
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 1
+  CurrentPluginConfig: 

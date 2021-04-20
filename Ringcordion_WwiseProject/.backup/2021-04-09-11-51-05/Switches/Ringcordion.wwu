@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EAEAC336-6D45-4090-A557-092190BA4F47}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Ringcordion" ID="{EAEAC336-6D45-4090-A557-092190BA4F47}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="RingcordionPullPush" ID="{26A25EFB-A532-4072-A56E-384B4FDE0CCB}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="RingPull" ID="{E60F7BC1-0DBB-413B-8318-CDA5C6FAC614}"/>
+						<Switch Name="RingPlay" ID="{0658A519-06E9-4149-AB9E-B4406D8E1670}"/>
+						<Switch Name="RingIdle" ID="{D8AB2B06-7D6B-422A-B175-F23B0516FCEB}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="PullPush" ID="{E4AC0CC9-4401-45D0-A653-AA4AA60228FF}"/>
+						<Curve Name="" ID="{07397935-253C-43E1-B373-026CAA238D8F}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>-1</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>-0.09122</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>0.10135</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="MajorMinor" ID="{776A90F3-6E1D-468B-8F13-688901B4072A}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Major" ID="{4F78F5A9-51FD-4FB3-B08E-9FEB81D93992}"/>
+						<Switch Name="Minor" ID="{C9E8EDED-D0EE-4366-A40A-962715CDA563}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="RingScale" ID="{F3350D8B-CFFB-4636-81D9-56313026B375}"/>
+						<Curve Name="" ID="{033F5B8B-026C-45FF-9C50-698F0B28E5E8}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>-1</XPos>
+									<YPos>2</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>1</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

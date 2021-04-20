@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A4F29540-8296-42AF-8EE6-4600A6972B35}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="RIngcordion effects" ID="{A4F29540-8296-42AF-8EE6-4600A6972B35}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="RC_Harmo_1_m3" ID="{D57C45F8-02F4-453D-9D12-245F8DE3560F}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+					<PropertyList>
+						<Property Name="Voice1Gain" Type="Real32" Value="-10"/>
+						<Property Name="Voice1Pitch" Type="Real32" Value="300"/>
+						<Property Name="Voice2Enable" Type="bool" Value="True"/>
+						<Property Name="Voice2Gain" Type="Real32" Value="-5.5"/>
+						<Property Name="Voice2Pitch" Type="Real32" Value="600"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="RC_Harmo_2_M2" ID="{6A7FAB08-79BB-4D28-A245-BD734087ACE8}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+					<PropertyList>
+						<Property Name="Voice1Gain" Type="Real32" Value="-10"/>
+						<Property Name="Voice1Pitch" Type="Real32" Value="200"/>
+						<Property Name="Voice2Enable" Type="bool" Value="True"/>
+						<Property Name="Voice2Gain" Type="Real32" Value="-5.5"/>
+						<Property Name="Voice2Pitch" Type="Real32" Value="400"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="RC_Harmo_3_m2" ID="{DA69E9F3-AE84-4B82-9DD7-FFFA250759D0}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+					<PropertyList>
+						<Property Name="Voice1Gain" Type="Real32" Value="-13"/>
+						<Property Name="Voice1Pitch" Type="Real32" Value="100"/>
+						<Property Name="Voice2Enable" Type="bool" Value="True"/>
+						<Property Name="Voice2Gain" Type="Real32" Value="-13"/>
+						<Property Name="Voice2Pitch" Type="Real32" Value="300"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="RC_Harmo_8" ID="{D37E3210-839E-4C69-B8A1-1E8A06598DA7}" PluginName="Wwise Harmonizer" CompanyID="0" PluginID="138" PluginType="3">
+					<PropertyList>
+						<Property Name="SyncDry" Type="bool" Value="False"/>
+						<Property Name="Voice1FilterFrequency" Type="Real32" Value="7100"/>
+						<Property Name="Voice1FilterType" Type="int32" Value="5"/>
+						<Property Name="Voice1Gain" Type="Real32" Value="-7"/>
+						<Property Name="Voice1Pitch" Type="Real32" Value="1200"/>
+						<Property Name="Voice2Enable" Type="bool" Value="True"/>
+						<Property Name="Voice2FilterFrequency" Type="Real32" Value="4517"/>
+						<Property Name="Voice2FilterType" Type="int32" Value="5"/>
+						<Property Name="Voice2Gain" Type="Real32" Value="-6.5"/>
+						<Property Name="Voice2Pitch" Type="Real32" Value="2400"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

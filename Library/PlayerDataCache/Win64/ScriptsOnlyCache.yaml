@@ -1,0 +1,902 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    AK.Wwise.Unity.API.Editor.dll:
+    - AkWwisePicker
+    - AkWwiseProjectData
+    AK.Wwise.Unity.API.WwiseTypes.dll:
+    - WwiseBankReference
+    - WwiseEventReference
+    AK.Wwise.Unity.API.dll:
+    - AkMacSettings
+    - AkWindowsSettings
+    - AkWwiseInitializationSettings
+    AK.Wwise.Unity.MonoBehaviour.dll:
+    - AkAudioListener
+    - AkBank
+    - AkGameObj
+    - AkInitializer
+    Assembly-CSharp.dll:
+    - RCSound
+    - RCText
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+  sceneClasses:
+    Assets/Scenes/Play Ringcordion.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1918}
+    - Class: 114
+      Script: {instanceID: 1958}
+    - Class: 114
+      Script: {instanceID: 2188}
+    - Class: 114
+      Script: {instanceID: 2448}
+    - Class: 114
+      Script: {instanceID: 2522}
+    - Class: 114
+      Script: {instanceID: 2688}
+    - Class: 114
+      Script: {instanceID: 2744}
+    - Class: 114
+      Script: {instanceID: 2786}
+    - Class: 114
+      Script: {instanceID: 3018}
+    - Class: 114
+      Script: {instanceID: 3120}
+    - Class: 114
+      Script: {instanceID: 3176}
+    - Class: 114
+      Script: {instanceID: 3258}
+    - Class: 114
+      Script: {instanceID: 3690}
+    - Class: 114
+      Script: {instanceID: 4088}
+    - Class: 114
+      Script: {instanceID: 4160}
+    - Class: 114
+      Script: {instanceID: 4382}
+    - Class: 114
+      Script: {instanceID: 4708}
+    - Class: 114
+      Script: {instanceID: 4780}
+    - Class: 114
+      Script: {instanceID: 16272}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 1f6947ef2d10670a80831fbfd1ff0bc4
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseSwitchReference
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 60ae880eea3fadf767e793c0d56acce0
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkRoomPortalObstruction
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkSpatialAudioListener
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerDisable
+  - hash:
+      serializedVersion: 2
+      Hash: 344a8c2e106a0a4e098e91a52e0af063
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 2f89da7dc5ab34f2d201bdfe57c2c52c
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseBankReference
+  - hash:
+      serializedVersion: 2
+      Hash: 34c81e484617bbad6e0515ecb8cb69d7
+    assemblyName: AK.Wwise.Unity.Timeline.dll
+    namespaceName: 
+    className: AkRTPCTrack
+  - hash:
+      serializedVersion: 2
+      Hash: dcd5626782ae3a6386b4b65ba584a597
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkSpatialAudioDebugDraw
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerEnable
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 5dccd1929539519870194cf2a6e12436
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkRoom
+  - hash:
+      serializedVersion: 2
+      Hash: 2f89da7dc5ab34f2d201bdfe57c2c52c
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseSwitchGroupReference
+  - hash:
+      serializedVersion: 2
+      Hash: d791aa6007fa3640be1164ea75bb087d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: bd2a1e871380441901d0630bae3d1521
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkRadialEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: 24e2965a3ef417636fb98ebc00908433
+    assemblyName: AK.Wwise.Unity.Timeline.dll
+    namespaceName: 
+    className: AkRTPCPlayable
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerMouseUp
+  - hash:
+      serializedVersion: 2
+      Hash: 60ae880eea3fadf767e793c0d56acce0
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkEmitterObstructionOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: AK.Wwise.Unity.Timeline.dll
+    namespaceName: 
+    className: AkTimelineRtpcTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerMouseDown
+  - hash:
+      serializedVersion: 2
+      Hash: 5f170942ee57c7a568f5bcfc7521adea
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: EnumerableTestState
+  - hash:
+      serializedVersion: 2
+      Hash: ecc1d6dcd8c8612171bebc4773a1e00e
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkBank
+  - hash:
+      serializedVersion: 2
+      Hash: 6bf90f396c7d2ad63dac4e6976cbbb48
+    assemblyName: AK.Wwise.Unity.Timeline.dll
+    namespaceName: 
+    className: AkEventPlayable
+  - hash:
+      serializedVersion: 2
+      Hash: 2f89da7dc5ab34f2d201bdfe57c2c52c
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseStateGroupReference
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: d170ea2c9e01f54f5247679cbdc51803
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerCollisionEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 040f30bda82345a80823f4d0b517be77
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkGameObjPosOffsetData
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: AK.Wwise.Unity.Timeline.dll
+    namespaceName: 
+    className: AkEventTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCText
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 4dc40d82c140121f355f5c4c1a2db468
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkRoomPortal
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: a1434f886453c533a52c81427eebe73d
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkGameObj
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 1829777aa0da7cb521efe825fa201b30
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkEarlyReflections
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: ff77aef4752429b54539c804cd972968
+    assemblyName: AK.Wwise.Unity.Timeline.dll
+    namespaceName: 
+    className: AkTimelineRtpcPlayable
+  - hash:
+      serializedVersion: 2
+      Hash: a33eb9d815a1a0cd7d8367185381691a
+    assemblyName: AK.Wwise.Unity.API.dll
+    namespaceName: 
+    className: AkMacSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 1e64e873d37d6d1d1eba1ef8eacdc719
+    assemblyName: AK.Wwise.Unity.API.dll
+    namespaceName: 
+    className: AkWindowsSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 547c3a8d7e23a9d945ccc8ba615ef198
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkAmbient
+  - hash:
+      serializedVersion: 2
+      Hash: 2f89da7dc5ab34f2d201bdfe57c2c52c
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseAuxBusReference
+  - hash:
+      serializedVersion: 2
+      Hash: d89fb6fff6b2b7430e4e1d98105488f5
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkEvent
+  - hash:
+      serializedVersion: 2
+      Hash: ab228ed1c678cc08e81d18a33ca45027
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkInitializer
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a2612813f45d0ced02c3e4bc9dbea8b4
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: 2f89da7dc5ab34f2d201bdfe57c2c52c
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseRtpcReference
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTerminator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d170ea2c9e01f54f5247679cbdc51803
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 68c83f63e692b6f3988c78832fa18ad2
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkAudioListener
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d170ea2c9e01f54f5247679cbdc51803
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerCollisionExit
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 801fffe42aad4bba39f2cc5c4568786c
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkEnvironment
+  - hash:
+      serializedVersion: 2
+      Hash: d170ea2c9e01f54f5247679cbdc51803
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerExit
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerMouseExit
+  - hash:
+      serializedVersion: 2
+      Hash: 2f89da7dc5ab34f2d201bdfe57c2c52c
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseEventReference
+  - hash:
+      serializedVersion: 2
+      Hash: e9cdb9b9c90f41340c2b9123a0546d1d
+    assemblyName: AK.Wwise.Unity.Timeline.dll
+    namespaceName: 
+    className: AkTimelineEventPlayable
+  - hash:
+      serializedVersion: 2
+      Hash: 7dafd51ce215beb6f8e47562a5ea8636
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkMemBankLoader
+  - hash:
+      serializedVersion: 2
+      Hash: a473ff8cece235a741064243dd1b9621
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkEnvironmentPortal
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 2f89da7dc5ab34f2d201bdfe57c2c52c
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseTriggerReference
+  - hash:
+      serializedVersion: 2
+      Hash: 5cc439bf63c0539d39588e69465ac2ab
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 2f89da7dc5ab34f2d201bdfe57c2c52c
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseAcousticTextureReference
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: AK.Wwise.Unity.Timeline.dll
+    namespaceName: 
+    className: AkTimelineEventTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkAmbientLargeModePositioner
+  - hash:
+      serializedVersion: 2
+      Hash: 981cbcd2c432358e45ff70a0b8b8d60f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkEventCallbackData
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkTriggerMouseEnter
+  - hash:
+      serializedVersion: 2
+      Hash: 9cf206fb8603ce41dc66e0c19f304169
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkSwitch
+  - hash:
+      serializedVersion: 2
+      Hash: 446fc1318fa21390ebc36fbfce1aa563
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RCSound
+  - hash:
+      serializedVersion: 2
+      Hash: c1585a7a5e7f5a12be8592bd9415c8c9
+    assemblyName: AK.Wwise.Unity.API.WwiseTypes.dll
+    namespaceName: 
+    className: WwiseStateReference
+  - hash:
+      serializedVersion: 2
+      Hash: f390b378a59bb73385bc3f0ca6424e69
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkState
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 33413b3cc52909f770c4db638fd1d87f
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkSurfaceReflector
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: c670445f1763cd2cce3d5cf8b0b98e13
+    assemblyName: AK.Wwise.Unity.API.dll
+    namespaceName: 
+    className: AkWwiseInitializationSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 89587b91c2be39c724c0665db375e75d
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkSpatialAudioEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: dc72d424a65fa265aba2853aefa1dc29
+    assemblyName: AK.Wwise.Unity.MonoBehaviour.dll
+    namespaceName: 
+    className: AkRoomAwareObject
+  platform: 19
+  scenePathNames:
+  - Assets/Scenes/Play Ringcordion.unity
+  playerPath: G:/repositories/RC_builds/Ringcordion.exe

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A678CAD-38CA-461C-ADA0-D1FF07BA6CDF}" SchemaVersion="103">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{8A678CAD-38CA-461C-ADA0-D1FF07BA6CDF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="time RC synth" ID="{68F752E4-C3CA-4787-99B8-C351F128D407}" ShortID="593777006">
+					<ChildrenList>
+						<ModulatorTime Name="Time envelope I" ID="{28EA6F67-8273-491C-BDA3-AFB1F8E556F3}" ShortID="369351410">
+							<PropertyList>
+								<Property Name="TimeModInitialDelay" Type="Real64" Value="0.3">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{29839206-62E3-424D-9256-EE93D7ADD50F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorTime>
+						<ModulatorTime Name="Time envelope III" ID="{0C960DF6-4325-48FA-9BCF-1F9729A7981F}" ShortID="57221870">
+							<PropertyList>
+								<Property Name="TimeModInitialDelay" Type="Real64" Value="0.4">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B2CA5954-BA53-44A9-A2E9-97D13EE1B46D}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorTime>
+						<ModulatorTime Name="Time envelope V" ID="{6CF8C55D-9972-41E5-87CC-1D40BFA36A41}" ShortID="1034477737">
+							<PropertyList>
+								<Property Name="TimeModInitialDelay" Type="Real64" Value="0.2">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0B55C9DE-4785-454F-9A9D-9E17F8A23E85}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorTime>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="LFO RC synth" ID="{37C6C2D4-87E8-49F0-92D4-747FF8FC383E}" ShortID="464090164">
+					<ChildrenList>
+						<ModulatorLfo Name="LFO vibrato I" ID="{4195C5A6-04D9-446B-986A-78488F312A4A}" ShortID="455809200">
+							<PropertyList>
+								<Property Name="LfoDepth" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{2AD73270-1EBB-489C-9C60-9D06E2F2313E}" ShortID="468949">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time envelope I" ID="{28EA6F67-8273-491C-BDA3-AFB1F8E556F3}" WorkUnitID="{8A678CAD-38CA-461C-ADA0-D1FF07BA6CDF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D5ADD31B-2485-407A-AD04-20434C6818C3}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="LfoFrequency" Type="Real64" Value="1.46">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{13365863-B8C7-46C2-9508-38164F5096A1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="LFO vibrato III" ID="{BE8AD760-1F05-4B60-8547-55FE910D4712}" ShortID="967760721">
+							<PropertyList>
+								<Property Name="LfoDepth" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{96400267-B282-4EA7-B4CB-EC6AEDF5082A}" ShortID="956727724">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time envelope I" ID="{28EA6F67-8273-491C-BDA3-AFB1F8E556F3}" WorkUnitID="{8A678CAD-38CA-461C-ADA0-D1FF07BA6CDF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0FFDD205-15B7-4399-A88D-9C469A9B1926}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="LfoFrequency" Type="Real64" Value="1.52">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F8684E13-AE70-409C-87B4-BE05AC749C48}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorLfo>
+						<ModulatorLfo Name="LFO vibrato V" ID="{A746530F-ECFF-48DD-987A-58BB4BA92ACA}" ShortID="822187227">
+							<PropertyList>
+								<Property Name="LfoDepth" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{DAB121E8-B1DF-4B73-A202-E0F6CA190982}" ShortID="303618347">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Time envelope III" ID="{0C960DF6-4325-48FA-9BCF-1F9729A7981F}" WorkUnitID="{8A678CAD-38CA-461C-ADA0-D1FF07BA6CDF}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{1E76F14C-5C6F-4C7C-A7E5-E181B9DEA1EE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp3</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>100</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="LfoFrequency" Type="Real64" Value="1.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9A404AAD-39BA-4F23-AE98-E9E357E956A3}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+						</ModulatorLfo>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="envelope RC synth" ID="{5E1A7905-3D8E-4B6F-B026-FD8E16467B7B}" ShortID="1024934520">
+					<ChildrenList>
+						<ModulatorEnvelope Name="Harmonica Sampler envelope" ID="{712BCB20-0363-47A2-B925-EE55603B5579}" ShortID="918448072">
+							<PropertyList>
+								<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.168"/>
+								<Property Name="EnvelopeReleaseTime" Type="Real64" Value="1"/>
+								<Property Name="EnvelopeStopPlayback" Type="bool" Value="False"/>
+								<Property Name="EnvelopeSustainTime" Type="Real64" Value="0.653"/>
+								<Property Name="ModulatorScope" Type="int32" Value="0"/>
+							</PropertyList>
+						</ModulatorEnvelope>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

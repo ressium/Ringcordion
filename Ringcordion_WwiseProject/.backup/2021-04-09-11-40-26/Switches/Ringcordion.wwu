@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EAEAC336-6D45-4090-A557-092190BA4F47}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Ringcordion" ID="{EAEAC336-6D45-4090-A557-092190BA4F47}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="RingcordionPullPush" ID="{26A25EFB-A532-4072-A56E-384B4FDE0CCB}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="RingPull" ID="{E60F7BC1-0DBB-413B-8318-CDA5C6FAC614}"/>
+						<Switch Name="RingPlay" ID="{0658A519-06E9-4149-AB9E-B4406D8E1670}"/>
+						<Switch Name="RingIdle" ID="{D8AB2B06-7D6B-422A-B175-F23B0516FCEB}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="MajorMinor" ID="{776A90F3-6E1D-468B-8F13-688901B4072A}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Major" ID="{4F78F5A9-51FD-4FB3-B08E-9FEB81D93992}"/>
+						<Switch Name="Minor" ID="{C9E8EDED-D0EE-4366-A40A-962715CDA563}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

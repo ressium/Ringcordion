@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>G:\repositories\Ringcordion\Ringcordion_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>G:\repositories\Ringcordion\Ringcordion_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>G:\repositories\Ringcordion\Ringcordion_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>G:\repositories\Ringcordion\Ringcordion_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="4016277695">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2634673847" Language="SFX" Hash="3886744472">
+			<ObjectPath>\SoundBanks\RRO Ringcordion\Ringcordion</ObjectPath>
+			<ShortName>Ringcordion</ShortName>
+			<Path>Ringcordion.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1256202815" Name="Play" ObjectPath="\Events\Ringcordion events\Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1008084864" Language="SFX">
+							<ShortName>Kontakt-01.wav</ShortName>
+							<Path>SFX\Kontakt-01_8A4528E0.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{0658A519-06E9-4149-AB9E-B4406D8E1670}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{0658A519-06E9-4149-AB9E-B4406D8E1670}">
+							<DefaultSwitchValue>{C9E8EDED-D0EE-4366-A40A-962715CDA563}</DefaultSwitchValue>
+							<Children/>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E60F7BC1-0DBB-413B-8318-CDA5C6FAC614}">
+							<DefaultSwitchValue>{C9E8EDED-D0EE-4366-A40A-962715CDA563}</DefaultSwitchValue>
+							<Media>
+								<File Id="1008084864"/>
+							</Media>
+							<Children/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1521606952" Name="RCButton" ObjectPath="\Events\Ringcordion events\RCButton" DurationType="OneShot" DurationMin="0.162941" DurationMax="1.059463">
+					<IncludedMemoryFiles>
+						<File Id="42013359" Language="SFX">
+							<ShortName>RC_Button_L1_03.wav</ShortName>
+							<Path>SFX\RC_Button_L1_03_10C4C929.wem</Path>
+						</File>
+						<File Id="212762743" Language="SFX">
+							<ShortName>RC_Button_L1_05.wav</ShortName>
+							<Path>SFX\RC_Button_L1_05_10C4C929.wem</Path>
+						</File>
+						<File Id="328471701" Language="SFX">
+							<ShortName>RC_Button_L1_06.wav</ShortName>
+							<Path>SFX\RC_Button_L1_06_10C4C929.wem</Path>
+						</File>
+						<File Id="396400601" Language="SFX">
+							<ShortName>RC_Button_L1_04.wav</ShortName>
+							<Path>SFX\RC_Button_L1_04_10C4C929.wem</Path>
+						</File>
+						<File Id="525798120" Language="SFX">
+							<ShortName>RC_Button_L2_04.wav</ShortName>
+							<Path>SFX\RC_Button_L2_04_10C4C929.wem</Path>
+						</File>
+						<File Id="602065568" Language="SFX">
+							<ShortName>RC_Button_L1_02.wav</ShortName>
+							<Path>SFX\RC_Button_L1_02_10C4C929.wem</Path>
+						</File>
+						<File Id="683097290" Language="SFX">
+							<ShortName>RC_Button_L1_01.wav</ShortName>
+							<Path>SFX\RC_Button_L1_01_10C4C929.wem</Path>
+						</File>
+						<File Id="703339273" Language="SFX">
+							<ShortName>RC_Button_L2_03.wav</ShortName>
+							<Path>SFX\RC_Button_L2_03_10C4C929.wem</Path>
+						</File>
+						<File Id="791864351" Language="SFX">
+							<ShortName>RC_Button_L2_01.wav</ShortName>
+							<Path>SFX\RC_Button_L2_01_10C4C929.wem</Path>
+						</File>
+						<File Id="1023854894" Language="SFX">
+							<ShortName>RC_Button_L2_02.wav</ShortName>
+							<Path>SFX\RC_Button_L2_02_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2327476764" Name="PullPush" ObjectPath="\Game Parameters\Default Work Unit\Ringcordion params\PullPush"/>
+				<GameParameter Id="3313763384" Name="RingKey" ObjectPath="\Game Parameters\Default Work Unit\Ringcordion params\RingKey"/>
+				<GameParameter Id="3594613879" Name="RingScale" ObjectPath="\Game Parameters\Default Work Unit\Ringcordion params\RingScale"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1836374242" Name="RingcordionPullPush" ObjectPath="\Switches\Ringcordion\RingcordionPullPush">
+					<Switches>
+						<Switch Id="398077510" Name="RingPull" ObjectPath="\Switches\Ringcordion\RingcordionPullPush\RingPull"/>
+						<Switch Id="1084723949" Name="RingPlay" ObjectPath="\Switches\Ringcordion\RingcordionPullPush\RingPlay"/>
+						<Switch Id="1622505453" Name="RingIdle" ObjectPath="\Switches\Ringcordion\RingcordionPullPush\RingIdle"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3257916159" Name="MajorMinor" ObjectPath="\Switches\Ringcordion\MajorMinor">
+					<Switches>
+						<Switch Id="1245009076" Name="Major" ObjectPath="\Switches\Ringcordion\MajorMinor\Major"/>
+						<Switch Id="3499807024" Name="Minor" ObjectPath="\Switches\Ringcordion\MajorMinor\Minor"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
