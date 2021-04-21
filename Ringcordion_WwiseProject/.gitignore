@@ -1,3 +1,3 @@
 # Wwise cache and backups
-.backup/*
-.cache/*
+/.backup/*
+/.cache/*

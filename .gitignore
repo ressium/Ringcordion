@@ -71,4 +71,4 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 # Keep Wwise pdb's
-!Assets/Wwise/API/Runtime/Plugins/Windows
+!/Assets/Wwise/API/Runtime/Plugins/Windows/**
