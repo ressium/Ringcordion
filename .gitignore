@@ -70,5 +70,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Keep Wwise pdb's
+# Keep Wwise pdb's, remove setup log
 !/Assets/Wwise/API/Runtime/Plugins/Windows/**
+/logRunSetup.txt
