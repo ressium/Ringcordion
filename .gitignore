@@ -70,6 +70,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
-# Keep Wwise pdb's, remove cache
+# Keep Wwise pdb's
 !Assets/Wwise/API/Runtime/Plugins/Windows
-.backup
