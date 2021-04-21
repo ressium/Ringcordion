@@ -59,6 +59,7 @@ The accordion timbre is run by several Wwise Synth One instances. It’s been re
 - [Marc Giguere](https://www.mgfilmmusic.com/) for the awesome 3d model I used to visualize the process of playing in Unity.
 - [@pilgun](https://github.com/pilgun) for having shared super useful info on GitHub licensing.
 - V@£}€\^*} for all the support and listening to my "YOU'LL NEVER GUESS WHAT'S INSIDE THE RINGCON" extatic screams.
+- [@Xorboo](https://github.com/Xorboo) and [@alxtrkhv](https://github.com/alxtrkhv) for their huge help with cleaning my repository!
 
 **Great resources I haven’t used in this project but got lots of ideas from:**
 - A [library for JoyCons](https://github.com/Looking-Glass/JoyconLib) by [@Looking Glass](https://github.com/Looking-Glass)
