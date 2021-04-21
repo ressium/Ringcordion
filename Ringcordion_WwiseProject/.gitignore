@@ -1,3 +1,7 @@
-# Wwise cache and backups
+# Wwise gitignore
 /.backup/*
 /.cache/*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
